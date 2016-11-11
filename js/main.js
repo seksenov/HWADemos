@@ -11,17 +11,14 @@ document.addEventListener("DOMContentLoaded", function() {
     document.getElementById('GetNum').addEventListener('click', getNum);
     document.getElementById('SetNum').addEventListener('click', function(){
         var num = document.getElementById('setNumIpt').value;
-        console.log(num);
         setNum(num);
     });
     document.getElementById('GetRand').addEventListener('click', function() {
         var num = document.getElementById('range').value;
-        console.log(num);
         getRand(0, num)
     });
     document.getElementById('GetFactorial').addEventListener('click', function() {
         var num = document.getElementById('facNumIpt').value;
-        console.log(num);
         getFactorial(num)
     });
 
@@ -36,23 +33,23 @@ document.addEventListener("DOMContentLoaded", function() {
 //define all the methods off the C++ component
 function getNum() {
     var returnVal = cppClass.getNum();
-    console.log(returnVal);
+    console.log("The number in NumClass is: " + returnVal);
     return returnVal;
 }
 
 function setNum(num) {
     cppClass.setNum(num);
-    console.log(getNum());
+    console.log("The number in NumClass is set to" + num);
 }
 
 function getRand(min, max) {
     var returnVal = cppClass.randomNumber(min, max);
-    console.log(returnVal);
+    console.log("The max number is: " + max + ", the reandom number returned is: " + returnVal);
 }
 
 function getFactorial(num) {
     var returnVal = cppClass.factorial(num);
-    console.log(returnVal);
+    console.log("The factorial of " + num + " is: " + returnVal);
 }
 
 //define methods for badge notifications
