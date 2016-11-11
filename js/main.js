@@ -34,7 +34,8 @@ function getNum() {
 }
 
 function setNum(num) {
-    console.log(getNum);
+    cppClass.setNum(num);
+    console.log(getNum());
 }
 
 function getRand(min, max) {
