@@ -39,7 +39,7 @@ function getNum() {
 
 function setNum(num) {
     cppClass.setNum(num);
-    console.log("The number in NumClass is set to" + num);
+    console.log("The number in NumClass is set to: " + num);
 }
 
 function getRand(min, max) {
