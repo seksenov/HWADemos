@@ -1,0 +1,4 @@
+c:\users\kiseksen\documents\visual studio 2015\Projects\HostedC++Surface\HostedC++Surface\bin\Debug\Numbers.winmd
+c:\users\kiseksen\documents\visual studio 2015\Projects\HostedC++Surface\HostedC++Surface\bin\Debug\Numbers.pdb
+c:\users\kiseksen\documents\visual studio 2015\Projects\HostedC++Surface\HostedC++Surface\bin\Debug\Numbers.pri
+c:\users\kiseksen\documents\visual studio 2015\Projects\HostedC++Surface\HostedC++Surface\bld\Debug\HostedC++Surface.jsprojResolveAssemblyReference.cache

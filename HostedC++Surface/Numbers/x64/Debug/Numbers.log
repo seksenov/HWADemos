@@ -1,0 +1,5 @@
+﻿  NumClass.cpp
+c:\users\kiseksen\documents\visual studio 2015\projects\hostedc++surface\numbers\numclass.cpp(45): warning C4244: 'return': conversion from 'float' to 'u8_8', possible loss of data
+     Creating library c:\users\kiseksen\documents\visual studio 2015\Projects\HostedC++Surface\x64\Debug\Numbers\Numbers.lib and object c:\users\kiseksen\documents\visual studio 2015\Projects\HostedC++Surface\x64\Debug\Numbers\Numbers.exp
+  Numbers.vcxproj -> c:\users\kiseksen\documents\visual studio 2015\Projects\HostedC++Surface\x64\Debug\Numbers\Numbers.dll
+  Numbers.vcxproj -> c:\users\kiseksen\documents\visual studio 2015\Projects\HostedC++Surface\x64\Debug\Numbers\Numbers.pdb (Partial PDB)
