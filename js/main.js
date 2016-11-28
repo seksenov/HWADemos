@@ -5,7 +5,9 @@ var notificationCount = 0;
 document.addEventListener("DOMContentLoaded", function() {
 
     //instantiate the C++ component
-    cppClass = new Numbers.NumClass();
+    if ("Numbers" in window) {
+        cppClass = new Numbers.NumClass();
+    }
 
     //add the event listeners for C++ component manipulation
     document.getElementById('GetNum').addEventListener('click', getNum);
