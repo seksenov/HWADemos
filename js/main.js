@@ -23,6 +23,10 @@ document.addEventListener("DOMContentLoaded", function() {
         console.log(num);
         getFactorial(num)
     });
+    document.getElementById('newWindow').addEventListener('click', function() {
+        console.log("Opening new window");
+        openWindow();
+    })
 
 })
 
@@ -46,5 +50,11 @@ function getRand(min, max) {
 function getFactorial(num) {
     var returnVal = cppClass.factorial(num);
     console.log(returnVal);
+}
+
+function openWindow() {
+    var windowObjectReference;
+    var strWindowFeatures = "menubar=yes,location=yes,resizable=yes,scrollbars=yes,status=yes";
+    windowObjectReference = window.open("http://www.cnn.com/", "CNN_WindowName", strWindowFeatures);
 }
 
