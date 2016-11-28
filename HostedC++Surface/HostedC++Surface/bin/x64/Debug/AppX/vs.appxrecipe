@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>KIRIL-SURFACE</Machine>
+    <WindowsUser>kiseksen</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>5f512011-f5f1-412a-be32-e877424eb70b</PackageIdentityName>
+    <PackageIdentityPublisher>CN=kiseksen</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\kiseksen\Documents\Visual Studio 2015\Projects\HostedC++Surface\HostedC++Surface\bld\x64\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <RegisteredManifestChecksum>FC4B7C0D23AD6EBAB3E9CCDABA3B7C70EDE666FD7D228A578D25F6F3AFEA1BF2</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>5f512011-f5f1-412a-be32-e877424eb70b_1.0.0.0_x64__ztz20nxghjvk8</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>5f512011-f5f1-412a-be32-e877424eb70b_ztz20nxghjvk8!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>5f512011-f5f1-412a-be32-e877424eb70b</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=kiseksen</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\kiseksen\Documents\Visual Studio 2015\Projects\HostedC++Surface\HostedC++Surface\bin\x64\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-11T17:51:42.075</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\kiseksen\Documents\Visual Studio 2015\Projects\HostedC++Surface\x64\Debug\Numbers\Numbers.winmd">
+      <PackagePath>Numbers.winmd</PackagePath>
+      <Modified>2016-11-11T17:51:36.529</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiseksen\Documents\Visual Studio 2015\Projects\HostedC++Surface\x64\Debug\Numbers\Numbers.dll">
+      <PackagePath>Numbers.dll</PackagePath>
+      <Modified>2016-11-11T17:51:36.623</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiseksen\Documents\Visual Studio 2015\Projects\HostedC++Surface\HostedC++Surface\msapp-error.js">
+      <PackagePath>msapp-error.js</PackagePath>
+      <Modified>2016-11-11T17:43:21.424</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiseksen\Documents\Visual Studio 2015\Projects\HostedC++Surface\HostedC++Surface\msapp-error.css">
+      <PackagePath>msapp-error.css</PackagePath>
+      <Modified>2016-07-12T01:44:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiseksen\Documents\Visual Studio 2015\Projects\HostedC++Surface\HostedC++Surface\msapp-error.html">
+      <PackagePath>msapp-error.html</PackagePath>
+      <Modified>2016-07-12T01:44:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiseksen\Documents\Visual Studio 2015\Projects\HostedC++Surface\HostedC++Surface\images\LockScreenLogo.scale-200.png">
+      <PackagePath>images\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2015-09-21T00:30:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiseksen\Documents\Visual Studio 2015\Projects\HostedC++Surface\HostedC++Surface\images\SplashScreen.scale-200.png">
+      <PackagePath>images\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-21T00:30:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiseksen\Documents\Visual Studio 2015\Projects\HostedC++Surface\HostedC++Surface\images\Square150x150Logo.scale-200.png">
+      <PackagePath>images\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-21T00:30:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiseksen\Documents\Visual Studio 2015\Projects\HostedC++Surface\HostedC++Surface\images\Square44x44Logo.scale-200.png">
+      <PackagePath>images\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-21T00:30:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiseksen\Documents\Visual Studio 2015\Projects\HostedC++Surface\HostedC++Surface\images\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-21T00:30:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiseksen\Documents\Visual Studio 2015\Projects\HostedC++Surface\HostedC++Surface\images\StoreLogo.png">
+      <PackagePath>images\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-21T00:30:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiseksen\Documents\Visual Studio 2015\Projects\HostedC++Surface\HostedC++Surface\images\Wide310x150Logo.scale-200.png">
+      <PackagePath>images\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-21T00:30:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.14393.0\\redist\Debug\X64\ucrtbased.dll">
+      <PackagePath>ucrtbased.dll</PackagePath>
+      <Modified>2016-07-28T18:45:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiseksen\Documents\Visual Studio 2015\Projects\HostedC++Surface\HostedC++Surface\bin\x64\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-11T22:35:25.637</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.24210.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.24210.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.24210.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.24210.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.24210.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.24210.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

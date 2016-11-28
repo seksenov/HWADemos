@@ -1,0 +1,2 @@
+C:\Users\kiseksen\Documents\Visual Studio 2015\Projects\HostedC++Surface\HostedC++Surface\HostedC++Surface.jsproj;x64
+C:\Users\kiseksen\Documents\Visual Studio 2015\Projects\HostedC++Surface\Numbers\Numbers.vcxproj;x64
