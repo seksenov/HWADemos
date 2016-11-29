@@ -1,5 +1,6 @@
 var cppClass;
 var notificationCount = 0;
+var windowObjectReference;
 
 // Wait for DOM loaded and set up event listeners on HTML elements
 document.addEventListener("DOMContentLoaded", function() {
@@ -69,7 +70,6 @@ function minusNotify() {
 
 
 function openWindow() {
-    var windowObjectReference;
     var strWindowFeatures = "menubar=yes,location=yes,resizable=yes,scrollbars=yes,status=yes";
     windowObjectReference = window.open("http://www.cnn.com/", "CNN_WindowName", strWindowFeatures);
 }
